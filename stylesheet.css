@@ -1,0 +1,217 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden; 
+}
+
+:root{
+    --primary: #85131E;
+}
+
+header{
+    background-color: var(--primary);
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+    float: left;
+}
+
+.textImmo{
+   color: white;
+   padding-top: 10px;
+}
+
+.menu ol{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 10px;
+}
+
+.list{
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 3rem;
+}
+
+.welcome{
+    color: #E99D00;
+    text-decoration: none;
+}
+.welcome:hover{
+    color: White;
+    text-decoration: none;
+}
+.good{
+    color: White;
+    text-decoration: none;
+}
+.good:hover{
+    color: #E99D00;
+    text-decoration: none;
+}
+
+.search{
+    margin: 1em;
+    max-height: 30vw;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+}
+.imageBassin{
+    overflow: hidden;
+}
+
+.searchbar{
+    position: absolute;
+    top: 50%;
+    background-color: #FFECC8; 
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.fa-key{
+    color: black;
+    height: 28px; 
+    width: 28px; 
+} 
+input{
+    margin-right: 20px;
+    width: 30vh;
+    height: 4vh;
+}
+
+input[type=submit]{
+    background-color: #E99D00;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carrousel{
+    margin: 4em;
+    overflow: hidden; 
+}
+
+.house{
+    overflow: hidden; 
+    max-height: 40vw;
+    display: flex;
+}
+
+.offers{
+    position: absolute;
+    top: 80%;
+    background-color: #FFECC8;
+    opacity: 50%;
+    padding: 10px 20px 10px;
+    border-radius: 5px;
+    left: 85%;
+}
+
+.buttonsCarrousel{
+    display: flex;
+    justify-content: end;
+}
+
+.left{
+    background-color: gray;
+    padding: 10px;
+    border: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.right{
+    background-color: gray;
+    padding: 10px;
+    border: 1px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.fa-caret-right{
+    width: 30px;
+    height: 30px;
+}
+.fa-caret-left{
+    width: 30px;
+    height: 30px;
+}
+
+.overview{
+    margin: 4em;
+    padding: 2em;
+    overflow: hidden;
+    background-color: #FFECC8;
+    border: 2px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+footer{
+    background-color: var(--primary);
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.endMenu ol{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 24px;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+
+.listFoot{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.icons ol{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.fa-square-facebook{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+.fa-square-instagram{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+.fa-square-youtube{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+.fa-linkedin{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+/* CSS pour modifier les div dans le header */
+/* header > div{ 
+    width: 50%;
+} */
